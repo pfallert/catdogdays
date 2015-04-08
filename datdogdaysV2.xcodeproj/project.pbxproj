@@ -13,6 +13,9 @@
 		7AA453401AD5E1B7001D9D82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA4533F1AD5E1B7001D9D82 /* Images.xcassets */; };
 		7AA453431AD5E1B7001D9D82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AA453411AD5E1B7001D9D82 /* LaunchScreen.xib */; };
 		7AA4534F1AD5E1B7001D9D82 /* datdogdaysV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4534E1AD5E1B7001D9D82 /* datdogdaysV2Tests.swift */; };
+		7AA4535B1AD5E900001D9D82 /* bark.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7AA453581AD5E900001D9D82 /* bark.m4a */; };
+		7AA4535C1AD5E900001D9D82 /* catdog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AA453591AD5E900001D9D82 /* catdog2.jpg */; };
+		7AA4535D1AD5E900001D9D82 /* meow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7AA4535A1AD5E900001D9D82 /* meow.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		7AA453481AD5E1B7001D9D82 /* datdogdaysV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = datdogdaysV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA4534D1AD5E1B7001D9D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AA4534E1AD5E1B7001D9D82 /* datdogdaysV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datdogdaysV2Tests.swift; sourceTree = "<group>"; };
+		7AA453581AD5E900001D9D82 /* bark.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bark.m4a; sourceTree = SOURCE_ROOT; };
+		7AA453591AD5E900001D9D82 /* catdog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catdog2.jpg; sourceTree = SOURCE_ROOT; };
+		7AA4535A1AD5E900001D9D82 /* meow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meow.wav; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		7AA453361AD5E1B7001D9D82 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7AA453581AD5E900001D9D82 /* bark.m4a */,
+				7AA453591AD5E900001D9D82 /* catdog2.jpg */,
+				7AA4535A1AD5E900001D9D82 /* meow.wav */,
 				7AA453371AD5E1B7001D9D82 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +201,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA4535D1AD5E900001D9D82 /* meow.wav in Resources */,
+				7AA4535B1AD5E900001D9D82 /* bark.m4a in Resources */,
 				7AA4533E1AD5E1B7001D9D82 /* Main.storyboard in Resources */,
 				7AA453431AD5E1B7001D9D82 /* LaunchScreen.xib in Resources */,
 				7AA453401AD5E1B7001D9D82 /* Images.xcassets in Resources */,
+				7AA4535C1AD5E900001D9D82 /* catdog2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
